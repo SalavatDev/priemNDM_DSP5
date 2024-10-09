@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <stlink>
+        <stlinkserialNo>7815D1DB</stlinkserialNo>
+        <stlinkfoundProbes />
+    </stlink>
+    <DebugChecksum>
+        <Checksum>3413055148</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
+    </Disassembly>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>78000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>39</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <Disassemble_mode>
+        <mode>0</mode>
+    </Disassemble_mode>
+    <StLinkDriver>
+        <stlinkserialNo>54FF6E066771545141160967</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
+    </StLinkDriver>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\CONFIG\debugger\ST\STM32L476RG.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
+        <EnableCache>0</EnableCache>
+    </ArmDriver>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <struct_types>
+        <Fmt0>ftime_t-day	3	0</Fmt0>
+        <Fmt1>ftime_t-hour	3	0</Fmt1>
+        <Fmt2>ftime_t-minute	3	0</Fmt2>
+        <Fmt3>ftime_t-month	3	0</Fmt3>
+        <Fmt4>ftime_t-second	3	0</Fmt4>
+        <Fmt5>ftime_t-year	3	0</Fmt5>
+        <Fmt6>tDataFromNDM-GKbot	4	0</Fmt6>
+        <Fmt7>tDataFromNDM-GKup	4	0</Fmt7>
+        <Fmt8>tDataFromNDM-RezKs	4	0</Fmt8>
+        <Fmt9>tDataFromNDM-ZenitUpit	4	0</Fmt9>
+        <Fmt10>tDataFromNDM-pressAxial	4	0</Fmt10>
+        <Fmt11>tDataFromNDM-pressZatrub	4	0</Fmt11>
+        <Fmt12>tDataFromNDM-rotationSpeed	4	0</Fmt12>
+        <Fmt13>tdatFromMIR-A1	3	0</Fmt13>
+        <Fmt14>tdatFromMIR-A2	3	0</Fmt14>
+        <Fmt15>tdatFromMIR-zenitIKUpit	4	0</Fmt15>
+    </struct_types>
+    <array_types>
+        <Fmt0>char[23]	5	0</Fmt0>
+        <Fmt1>uint32_t[8]	4	0</Fmt1>
+        <Fmt2>uint8_t[6]	4	0</Fmt2>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:cmprTimeFlash	4	0</Fmt0>
+        <Fmt1>{W}1:currAdrFlash	4	0</Fmt1>
+        <Fmt2>{W}1:dataUsart	4	0</Fmt2>
+        <Fmt3>{W}1:endDataFlash	4	0</Fmt3>
+        <Fmt4>{W}1:normSUM	3	0</Fmt4>
+        <Fmt5>{W}1:sinchrDat	4	0</Fmt5>
+        <Fmt6>{W}1:startDataFlash	4	0</Fmt6>
+        <Fmt7>{W}2:currAdrFlash	3	0</Fmt7>
+        <Fmt8>{W}2:findEndStr	4	0</Fmt8>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category2>_ 0</Category2>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "E:\stm32l476PRJ\priemNDMdsp\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c" ""</A0>
+        <A1>_ "E:\stm32l476PRJ\priemNDMdsp\Src\main.c" ""</A1>
+        <Count>2</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>
